@@ -1,0 +1,311 @@
+p {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 640px) {
+
+.container {
+  max-width: 520px;
+  margin-left: 10px;
+}
+
+#title, #author {
+  margin-top: 10px;
+  width: 500px;
+}
+
+#addBook {
+  display: none;
+}
+
+button {
+  margin-left: 195px;
+  margin-bottom: 10px;
+  background-color: #119494;
+  border-radius: 3px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 130px;
+  border: none;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+button.Add {
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+#Add, #Search {
+  background-color: #119494;
+  border-radius: 3px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 130px;
+  border: none;
+  color: white;
+}
+
+#Add:hover, #Search:hover {
+  background-color: #0f7777;
+}
+
+#Cancel {
+  background-color: #dd5555;
+  border-radius: 3px;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 130px;
+  color: white;
+}
+
+#Cancel:hover {
+  background-color: #b84a4a;
+}
+
+h1.title {
+  border-radius: 10px;
+  -webkit-box-shadow: 1px,1px,1px,1px;
+  box-shadow: 1px,1px,1px,1px;
+  background-color: #e5e8ee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  -webkit-box-shadow: 3px 4px 5px #c4c4c4;
+  box-shadow: 3px 4px 5px #c4c4c4;
+  margin-top: 0px;
+}
+
+img.logo {
+  max-width: 300px;
+  margin-left: 110px;
+}
+
+img.unavaible {
+  max-width: 200px;
+  opacity: 0.3;
+}
+
+#searchResults, #pochList, .searchResults__Book, .pochList__Book {
+  width: 225px;
+  margin-right: 10px;
+  border: solid 1px #bbbbbb;
+  border-radius: 2px;
+}
+
+.searchResults__Book, .pochList__Book {
+  background-color: #d6d6d6;
+  border-color: #b4b4b4;
+}
+
+#searchResults, #pochList, .searchResults__Book, .pochList__Book {
+  font-weight: bold;
+  width: 520px;
+}
+
+#searchResults .searchResults__Book_bookElement--img, .pochList__Book_bookElement--img {
+  right: 200px;
+  width: 200px;
+  size: 20%;
+  margin-left: 150px;
+}
+
+button#bookmark, button#trash {
+  background-color: #d6d6d6;
+  color: #119494;
+  font-size: 150%;
+  margin-left: 480px;
+  width: auto;
+  padding-bottom: 0px;
+}
+
+button#bookmark:hover, button#trash:hover {
+  color: #0f7777;
+}
+
+#searchResults {
+  display: none;
+}
+}
+
+@media screen and (min-width: 640px) {
+  .container {
+    max-width: center;
+    margin-left: 10px;
+  }
+
+  label {
+    font-size : 200%;
+  }
+
+  input {
+    height: 30px;
+  }
+  
+  #title, #author {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  #addBook {
+    display: none;
+    max-width: center;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 1.3em;
+  }
+  
+  button.Add {
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+  
+  #Add, #Search {
+    background-color: #119494;
+    border-radius: 3px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    color: white;
+    width: 10%;
+    margin-left: 45%;
+  }
+  
+  #Cancel {
+    background-color: #dd5555;
+    border-radius: 3px;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    width: 10%;
+    margin-left: 45%;
+  }
+  
+  h1.title {
+    border-radius: 10px;
+    -webkit-box-shadow: 1px,1px,1px,1px;
+    box-shadow: 1px,1px,1px,1px;
+    background-color: #e5e8ee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    -webkit-box-shadow: 3px 4px 5px #c4c4c4;
+    box-shadow: 3px 4px 5px #c4c4c4;
+    margin-top: 0px;
+  }
+  
+  img.logo {
+    max-width: 30%;
+    margin-left: 35%;
+  }
+  
+  #searchResults, #pochList, .searchResults__Book, .pochList__Book {
+    width: auto;
+    margin-right: 10px;
+    border: solid 1px #bbbbbb;
+    border-radius: 2px;
+  }
+  
+  .searchResults__Book, .pochList__Book {
+    background-color: #d6d6d6;
+    border-color: #b4b4b4;
+  }
+  
+  #searchResults, #pochList, .searchResults__Book, .pochList__Book {
+    font-weight: bold;
+    width: auto;
+  }
+  
+  #searchResults .searchResults__Book_bookElement--img, .pochList__Book_bookElement--img {
+    right: auto;
+    width: 15%;
+    margin-left: 42%;
+    margin-top: 20px;
+  }
+  
+  #searchResults {
+    display: none;
+  }  
+
+
+  button {
+    margin-left: 195px;
+    margin-bottom: 10px;
+    background-color: #119494;
+    border-radius: 3px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 130px;
+    border: none;
+    color: white;
+  }
+  button#bookmark, button#trash {
+    background-color: #d6d6d6;
+    color: #119494;
+    font-size: 250%;
+    margin-left: 95%;
+    padding-bottom: 0px;
+    width: 40px;
+  }
+  
+  button#bookmark:hover, button#trash:hover {
+    color: #0f7777;
+  }
+  
+}
+
+@media screen and (min-width: 1100px) {
+
+  h2 {
+    width: 100%;
+  }
+  #searchResults, #pochList, .searchResults__Book, .pochList__Book {
+    width: 100%;
+    margin-right: 10px;
+    border: solid 1px #bbbbbb;
+    border-radius: 2px;
+    font-weight: bold;
+  }
+  
+  .searchResults__Book, .pochList__Book {
+    background-color: #d6d6d6;
+    border-color: #b4b4b4;
+    font-weight: bold;
+    height: auto;
+  }
+  #searchResults, #pochList {
+    column-rule-width: 300px;
+    column-count: 2;
+    column-gap: 15px;
+  }
+
+  
+.searchResults__Book_bookElement--img, .pochList__Book_bookElement--img {
+    width: 15%;
+    margin-left: 42%;
+    margin-top: 20px;
+  }
+  
+  button#bookmark, button#trash {
+    background-color: #d6d6d6;
+    color: #119494;
+    font-size: 230%;
+    margin-left: 92%;
+    padding-bottom: 0px;
+    width: 40px;
+  }
+  
+  button#bookmark:hover, button#trash:hover {
+    color: #0f7777;
+  }
+}
+/*# sourceMappingURL=main.css.map */

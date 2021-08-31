@@ -1,0 +1,11 @@
+{
+  "name": "p6_amsellem_yohann",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./main.scss:./public/css/main.css",
+    "author": "index.js",
+    "license": "ISC"
+  }
+}

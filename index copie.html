@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+	</style>
+	<script src="https://kit.fontawesome.com/7b6de649e5.js" crossorigin="anonymous"></script>
+	<script src="index.js"></script>
+	<title>Poch'Lib</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="main.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<div class="container">
+		<img class="logo" src="logo\logo.png" alt="logo du site" title="Poch'Lib" />
+		<div id="myBooks">
+
+			<h1 class="title">Poch'Lib</h1>
+			<p>
+			<h2 class="h2">Nouveau Livre</h2>
+			<button onclick="openAddMenu()" id="Add">Ajouter un livre</button>
+			<div id="addBook">
+
+				</p>
+
+				<form method="post" action="traitement.php">
+					<p>
+						<label>Titre du livre</label><br><input id="title" type="search" name="Title" maxlength="50"
+							required />
+					</p>
+					<p>
+						<label>Auteur</label><br><input id="author" type="search" name="author" maxlength="30"
+							required />
+					</p>
+				</form>
+				<p>
+					<button type="submit" onclick="openSearchResults()" id="Search">Rechercher</button>
+				</p>
+				<p>
+					<button onclick="pochList()" id="Cancel">Annuler</button>
+				</p>
+			</div>
+			<hr>
+			<h2>Ma poch'liste</h2>
+			<div id="pochList">
+			</div>
+
+
+
+		</div>
+		<div id="searchResults">
+			<h2>Résultats de recherche</h2>
+		</div>
+
+
+
+	</div>
+	<div id="error"></div>
+	</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+html {
+  max-width: 520px;
+  margin-left: 10px;
+}
+
+p {
+  visibility: visible;
+}
+
+#title, #author {
+  margin-top: 10px;
+  width: 500px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+button.Add {
+  margin-left: 195px;
+  margin-bottom: 10px;
+}
+
+.Add, .Search {
+  background-color: #119494;
+  border-radius: 3px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 130px;
+  border: none;
+  color: white;
+}
+.Add:hover, .Search:hover {
+  background-color: #0c7272;
+}
+
+.Cancel {
+  background-color: #dd5555;
+  border-radius: 3px;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 130px;
+  color: white;
+}
+.Cancel:hover {
+  background-color: #b84a4a;
+}
+
+h1.title {
+  border-radius: 10px;
+  box-shadow: 1px, 1px, 1px, 1px;
+  background-color: #e5e8ee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  box-shadow: 3px 4px 5px #c4c4c4;
+  margin-top: 0px;
+}
+
+img.logo {
+  max-width: 300px;
+  margin-left: 110px;
+}
+
+img.unavaible {
+  max-width: 200px;
+  opacity: 0.3;
+}
+
+.searchResults {
+  display: flex;
+}
+.searchResults .searchResults__Book {
+  display: flex;
+  width: 245px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.5px #bbbbbb;
+}
+.searchResults .searchResults__Book_bookElement {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  width: 400px;
+}
+.searchResults .searchResults__Book_bookElement--img {
+  position: top 100px;
+}
