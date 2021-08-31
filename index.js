@@ -98,10 +98,20 @@ function SearchResults() {
     x.style.display = "block";
     var z = document.getElementById("pochList");
     z.style.display = "none";
+    var y = document.getElementById("searchTitle");
+    y.style.display = "block";
+    var w = document.getElementById("pochTitle");
+    w.style.display = "none";
 }
 
 
 function pochList() {
+
+
+    var y = document.getElementById("searchTitle");
+    y.style.display = "none";
+    var w = document.getElementById("pochTitle");
+    w.style.display = "block";
     var x = document.getElementById("searchResults");
     x.style.display = "none";
     var z = document.getElementById("pochList");
@@ -141,7 +151,7 @@ function showResults(result) {
         bookDescription.textContent = "Description : Information manquante";
     }
     else {
-        bookDescription.textContent = "Description : " + result.volumeInfo.description;
+        bookDescription.textContent = " Description : " + result.volumeInfo.description;
     }
     var bookImage = document.createElement("img");
     bookImage.setAttribute("class", "searchResults__Book_bookElement--img");

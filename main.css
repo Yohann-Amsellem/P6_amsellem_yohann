@@ -3,6 +3,19 @@ p {
   font-size: 16px;
 }
 
+.searchResults__Book_Description, .searchResults__Book_Author , .searchResults__Book_Id ,
+ .pochList__Book_Description, .pochList__Book_Id ,.pochList__Book_Author  {
+  padding-top: 5px;
+}
+
+#searchTitle {
+  display: none;
+}
+
+#pochTitle {
+  display :block
+}
+
 @media screen and (max-width: 640px) {
 
 .container {
@@ -102,6 +115,7 @@ img.unavaible {
 .searchResults__Book, .pochList__Book {
   background-color: #d6d6d6;
   border-color: #b4b4b4;
+  padding: 0px 0px 10px 10px;
 }
 
 #searchResults, #pochList, .searchResults__Book, .pochList__Book {
@@ -218,6 +232,7 @@ button#bookmark:hover, button#trash:hover {
   .searchResults__Book, .pochList__Book {
     background-color: #d6d6d6;
     border-color: #b4b4b4;
+    padding: 0px 0px 10px 10px;
   }
   
   #searchResults, #pochList, .searchResults__Book, .pochList__Book {
@@ -252,7 +267,7 @@ button#bookmark:hover, button#trash:hover {
     background-color: #d6d6d6;
     color: #119494;
     font-size: 250%;
-    margin-left: 95%;
+    margin-left: 92%;
     padding-bottom: 0px;
     width: 40px;
   }
@@ -265,9 +280,6 @@ button#bookmark:hover, button#trash:hover {
 
 @media screen and (min-width: 1100px) {
 
-  h2 {
-    width: 100%;
-  }
   #searchResults, #pochList, .searchResults__Book, .pochList__Book {
     width: 100%;
     margin-right: 10px;
@@ -280,7 +292,7 @@ button#bookmark:hover, button#trash:hover {
     background-color: #d6d6d6;
     border-color: #b4b4b4;
     font-weight: bold;
-    height: auto;
+    padding: 0px 0px 10px 10px;
   }
   #searchResults, #pochList {
     column-rule-width: 300px;
