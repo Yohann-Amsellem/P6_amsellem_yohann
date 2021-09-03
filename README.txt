@@ -1,0 +1,1 @@
+Pour installer l'application, il suffit de télécharger les fichiers du projet et d'éxécutez le fichier : index copie.html 
